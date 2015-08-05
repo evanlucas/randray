@@ -11,6 +11,22 @@ Get a random item from an array
 $ npm install --save randray
 ```
 
+## API
+
+```js
+var randray = require('randray')
+
+// not an array will throw
+randray(true)
+
+// empty array will return null
+randray([])
+// => null
+
+randray([1, 2, 3, 4])
+// => 2
+```
+
 ## Test
 
 ```bash

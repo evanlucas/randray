@@ -1,7 +1,7 @@
 'use strict'
 
-var test = require('tap').test
-  , randray = require('./')
+const test = require('tap').test
+    , randray = require('./')
 
 test('throws if argument is not an array', function(t) {
   t.throws(function() {
@@ -16,7 +16,7 @@ test('return null if empty array', function(t) {
 
 test('returns a random item from array', function(t) {
   t.plan(1)
-  var items = ['my', 'name', 'is', 'evan']
-  var out = randray(items)
+  const items = ['my', 'name', 'is', 'evan']
+  const out = randray(items)
   t.ok(items.indexOf(out) !== -1)
 })

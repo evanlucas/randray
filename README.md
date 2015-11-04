@@ -5,6 +5,9 @@
 
 Get a random item from an array
 
+*Note: `randray` is only supported on iojs and node v4+. To use with an older
+version of node, please use `randray@1`.*
+
 ## Install
 
 ```bash

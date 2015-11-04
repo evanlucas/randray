@@ -4,7 +4,7 @@ module.exports = function randray(arr) {
   if (!Array.isArray(arr))
     throw new Error('argument must be an array')
 
-  var len = arr.length
+  const len = arr.length
 
   if (!len)
     return null

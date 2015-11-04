@@ -7,6 +7,7 @@ test('throws if argument is not an array', function(t) {
   t.throws(function() {
     randray(true)
   }, /argument must be an array/)
+  t.end()
 })
 
 test('return null if empty array', function(t) {
